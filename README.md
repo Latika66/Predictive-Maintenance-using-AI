@@ -4,7 +4,7 @@ Predict machine failures **before they happen** — using real industrial sensor
 
 Instead of fixing machines after they break (reactive) or on a fixed calendar schedule (preventive), this project predicts failure risk from live sensor readings so maintenance can happen exactly when it's needed — reducing downtime, cost, and safety risk.
 
-**Live demo:** _add your deployed Streamlit URL here_
+**Live demo:** (https://predictive-maintenance-using-ai.streamlit.app/)
 
 ---
 
