@@ -1,4 +1,4 @@
-# 🏭 AI-Powered Predictive Maintenance System
+# 🏭 Predidctive Maintenance Using AI 
 
 Predict machine failures **before they happen** — using real industrial sensor data, a comparison of three ML models, SHAP-based explainability, and a generative-AI layer that turns risk scores into plain-English maintenance reports.
 
@@ -18,14 +18,6 @@ Instead of fixing machines after they break (reactive) or on a fixed calendar sc
 - Lets you ask **follow-up questions** about a specific machine's prediction
 - Logs every prediction to a local **SQLite** database, browsable in a History tab
 - Ships with a **synthetic demo fleet generator** so the Upload & Predict tab can be demoed without a real CSV on hand
-
----
-
-## 🧠 Why this is harder than it looks
-
-Most public predictive-maintenance tutorials on this dataset **leak the answer into the features** — the raw data includes columns (`TWF`, `HDF`, `PWF`, `OSF`, `RNF`) that are literally sub-categories of the failure label itself. Training on those makes a model look ~100% accurate while learning nothing useful.
-
-This project explicitly drops those columns before training, so the ~82% precision / ~81% recall reported below reflects the model learning from **sensor physics alone** — temperature, torque, speed, wear — not a shortcut. That's the difference between a demo that looks impressive and a model that would actually be useful on a factory floor.
 
 ---
 
@@ -211,5 +203,5 @@ All three models were evaluated on the same held-out test set using Precision, R
 ## 🧑‍💻 Author
 
 Made by **Latika**
-LinkedIn: https://www.linkedin.com/in/latika-muteja-a0168b277/
-GitHub: https://github.com/Latika66
+ | LinkedIn: https://www.linkedin.com/in/latika-muteja-a0168b277/
+
