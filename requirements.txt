@@ -1,0 +1,11 @@
+streamlit
+pandas
+scikit-learn
+xgboost
+shap
+google-genai
+python-dotenv
+plotly
+joblib
+matplotlib
+ucimlrepo

@@ -1,0 +1,3 @@
+.env
+data/predictions.db
+__pycache__/
